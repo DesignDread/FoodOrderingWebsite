@@ -1,0 +1,69 @@
+[
+  {
+    "id": "d808b8bf-a988-49e6-a742-b03e1d03b253",
+    "name": "Raghav Singla",
+    "email": "04raghavsingla28@gmail.com",
+    "password": "$2b$10$oBAppOP9e9XDBilrnG3Gk.wBMaoUXAlX3iR1Fhnyvtb087n5aZ5AW",
+    "img": "https://www.google.com/imgres?q=avatar%20image%20dummy&imgurl=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fvector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg&imgrefurl=https%3A%2F%2Fwww.dreamstime.com%2Fvector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-image137160339&docid=VDSSrvsYHkgiyM&tbnid=gUNgFLYuoYP3-M&vet=12ahUKEwir2MHOof-LAxVmS2wGHWChPSMQM3oECBoQAA..i&w=800&h=800&hcb=2&ved=2ahUKEwir2MHOof-LAxVmS2wGHWChPSMQM3oECBoQAA",
+    "cart": [],
+    "favourites": [],
+    "createdAt": "2025-03-10T10:05:47.155Z"
+  },
+  {
+    "id": "fceab198-522d-4f22-9d43-ef49f5a289c2",
+    "name": "anubhav",
+    "email": "anubhav0290.be23@chitkara.edu.in",
+    "password": "$2b$10$BZoeYW3csWK8DbB9UsU0De8BcxF6B.aWBu6tJ2NyycMg3OtAnp9zy",
+    "cart": [
+      {
+        "quantity": 4
+      }
+    ],
+    "favourites": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "createdAt": "2025-03-10T10:23:42.208Z"
+  },
+  {
+    "id": "0a98153d-f415-424f-9afb-b364f797fbb9",
+    "name": "Raghav Singla",
+    "email": "raghavsingla.college@gmail.com",
+    "password": "$2b$10$ziA2ffyF9xXtv8uoSlM2ouBPx/O3hFHtRKOrGFai4iydskaoM1yYO",
+    "img": "https://ui-avatars.com/api/?name=User&background=random",
+    "cart": [],
+    "favourites": [
+      "1",
+      "2"
+    ],
+    "createdAt": "2025-03-10T12:13:06.947Z"
+  },
+  {
+    "id": "5508ba09-44db-4627-9bdd-ea170fea8e8b",
+    "name": "Anubhav garg",
+    "email": "Anubhav@gmail.com",
+    "password": "$2b$10$KAwKewLHUNWymAhw0FLfDOghzYIaRgFujyxhSIp4jNzK7yOZQ8nji",
+    "img": "https://ui-avatars.com/api/?name=User&background=random",
+    "cart": [],
+    "favourites": [
+      "3",
+      "4",
+      "5"
+    ],
+    "createdAt": "2025-03-10T12:17:22.102Z"
+  },
+  {
+    "id": "ca8dabd0-2557-4051-803f-f08ee4457b38",
+    "name": "Chaitanya",
+    "email": "chaitanya@gmail.com",
+    "password": "$2b$10$cp./5Ewq0HHg8IMbupaEreTrcHz7DJTPxRc8xE1DaUnrcZEHEZFMy",
+    "img": "https://ui-avatars.com/api/?name=User&background=random",
+    "cart": [],
+    "favourites": [],
+    "createdAt": "2025-03-10T13:35:22.856Z"
+  }
+]
