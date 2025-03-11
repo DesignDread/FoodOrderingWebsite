@@ -18,15 +18,15 @@ const readFoodData = async () => {
 };
 
 // Helper function to write food data
-const writeFoodData = async (data) => {
-  try {
-    // Ensure the data directory exists
-    await fs.mkdir(dataDir, { recursive: true });
-    await fs.writeFile(foodDataPath, JSON.stringify(data, null, 2));
-  } catch (error) {
-    throw new Error(`Error writing to food data file: ${error.message}`);
-  }
-};
+// const writeFoodData = async (data) => {
+//   try {
+//     // Ensure the data directory exists
+//     await fs.mkdir(dataDir, { recursive: true });
+//     await fs.writeFile(foodDataPath, JSON.stringify(data, null, 2));
+//   } catch (error) {
+//     throw new Error(`Error writing to food data file: ${error.message}`);
+//   }
+// };
 
 // Validation function to ensure food object has all required fields
 const validateFood = (food) => {
@@ -159,18 +159,19 @@ const Food = {
   },
   
   // Delete a food item
-  findByIdAndDelete: async (id) => {
-    const foods = await readFoodData();
-    const index = foods.findIndex(food => food.id === id);
-    
-    if (index === -1) return null;
-    
-    const deletedFood = foods[index];
-    foods.splice(index, 1);
-    await writeFoodData(foods);
-    
-    return deletedFood;
-  }
-};
+    findByIdAndDelete: async (id) => {
+      const foods = await readFoodData();
+      const index = foods.findIndex(food => food.id === id);
+      
+      if (index === -1) return null;
+      
+      const deletedFood = foods[index];
+      foods.splice(index, 1);
+      await writeFoodData(foods);
+      
+      return deletedFood;
+    }
+  };
+
 
 export default Food;

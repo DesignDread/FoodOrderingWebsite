@@ -62,8 +62,35 @@
     "email": "chaitanya@gmail.com",
     "password": "$2b$10$cp./5Ewq0HHg8IMbupaEreTrcHz7DJTPxRc8xE1DaUnrcZEHEZFMy",
     "img": "https://ui-avatars.com/api/?name=User&background=random",
+    "cart": [
+      {
+        "product": "1",
+        "quantity": 1
+      }
+    ],
+    "favourites": [
+      "1"
+    ],
+    "createdAt": "2025-03-10T13:35:22.856Z"
+  },
+  {
+    "id": "49cc4699-56fa-44c0-85e0-5df0110ae25c",
+    "name": "hehe",
+    "email": "hehe@gmail.com",
+    "password": "$2b$10$3xZgOtV1JNBv9qe6/1FDV.H2PYsmvDNe.4BfzjlowZJmErwKmerh6",
+    "img": "https://ui-avatars.com/api/?name=User&background=random",
     "cart": [],
     "favourites": [],
-    "createdAt": "2025-03-10T13:35:22.856Z"
+    "createdAt": "2025-03-11T06:08:26.630Z"
+  },
+  {
+    "id": "369f3293-a2ea-4e70-ad33-ff1094008522",
+    "name": "Raghav Singla",
+    "email": "Raghav@gmail.com",
+    "password": "$2b$10$.iDSy5lsVcXREUcNaLJtI.CQZgU2Ic0Wuz6xIQWaJbM.vuqYPo.5m",
+    "img": "https://ui-avatars.com/api/?name=User&background=random",
+    "cart": [],
+    "favourites": [],
+    "createdAt": "2025-03-11T07:47:18.912Z"
   }
 ]

@@ -86,7 +86,7 @@ export const getFoodItems = async (req, res, next) => {
     
     // Apply filters
     if (categories && categories.length > 0) {
-      foodList = foodList.filter(food => categories.includes(food.category));
+      foodList = foodList.filter(food => categories.some(category => food.category.includes(category)));
     }
     
     if (ingredients && ingredients.length > 0) {

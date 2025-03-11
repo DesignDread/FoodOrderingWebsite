@@ -7,7 +7,7 @@ import FavouritePage from "./pages/FavouritePage";
 import RegisterPage from "./pages/RegisterPage";
 import FoodDetailPage from "./pages/FoodDetailPage";
 import Header from "./components/Header";
-
+import Profile from "./pages/Profile"
 function App() {
   return (
     <>
@@ -20,6 +20,7 @@ function App() {
         <Route path='/cart' element={<CartPage />} />
         <Route path='/favourite' element={<FavouritePage />} />
         <Route path="/food/:id" element={<FoodDetailPage />} />
+        <Route path="/profile" element={<Profile/>}></Route>
       </Routes>
       <Toaster />
     </>

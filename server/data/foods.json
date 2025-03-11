@@ -1,228 +1,227 @@
 [
-    {
-      "id": "1",
-      "name": "Margherita Pizza",
-      "desc": "Classic pizza with tomato sauce, mozzarella, and basil.",
-      "ingredients": ["tomato sauce", "mozzarella", "basil"],
-      "img": "https://tse3.mm.bing.net/th?id=OIP.b-fO5ZqS-88ro6VfvtT5AgHaEv&pid=Api&P=0&h=180",
-      "price": {
-        "org": 8.99,
-        "mrp": 10.99,
-        "off": 15
-      },
-      "category": ["pizza", "italian"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+  {
+    "id": "1",
+    "name": "Margherita Pizza",
+    "desc": "Classic pizza with tomato sauce, mozzarella, and basil.",
+    "ingredients": ["tomato sauce", "mozzarella", "basil"],
+    "img": "margherita.jpeg",
+    "price": {
+      "org": 8.99,
+      "mrp": 10.99,
+      "off": 15
     },
-    {
-      "id": "2",
-      "name": "Spaghetti Carbonara",
-      "desc": "Creamy pasta with eggs, cheese, pancetta, and black pepper.",
-      "ingredients": ["spaghetti", "eggs", "cheese", "pancetta", "black pepper"],
-      "img": "https://www.sipandfeast.com/wp-content/uploads/2022/09/spaghetti-carbonara-recipe-snippet.jpg",
-      "price": {
-        "org": 12.99,
-        "mrp": 14.99,
-        "off": 13
-      },
-      "category": ["pasta", "italian"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["pizza", "italian"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "2",
+    "name": "Spaghetti Carbonara",
+    "desc": "Creamy pasta with eggs, cheese, pancetta, and black pepper.",
+    "ingredients": ["spaghetti", "eggs", "cheese", "pancetta", "black pepper"],
+    "img": "Spaghetti Carbonara.jpg",
+    "price": {
+      "org": 12.99,
+      "mrp": 14.99,
+      "off": 13
     },
-    {
-      "id": "3",
-      "name": "Chicken Tikka Masala",
-      "desc": "Tender chicken in a creamy tomato-based sauce.",
-      "ingredients": ["chicken", "tomato", "cream", "spices"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 14.99,
-        "mrp": 16.99,
-        "off": 12
-      },
-      "category": ["indian", "non-veg"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["pasta", "italian"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "3",
+    "name": "Chicken Tikka Masala",
+    "desc": "Tender chicken in a creamy tomato-based sauce.",
+    "ingredients": ["chicken", "tomato", "cream", "spices"],
+    "img": "Chicken Tikka Masala.jpg",
+    "price": {
+      "org": 14.99,
+      "mrp": 16.99,
+      "off": 12
     },
-    {
-      "id": "4",
-      "name": "Veggie Burger",
-      "desc": "Delicious burger with a patty made from vegetables.",
-      "ingredients": ["vegetable patty", "bun", "lettuce", "tomato"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 7.99,
-        "mrp": 9.99,
-        "off": 20
-      },
-      "category": ["burger", "vegetarian"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["indian", "non-veg"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "4",
+    "name": "Veggie Burger",
+    "desc": "Delicious burger with a patty made from vegetables.",
+    "ingredients": ["vegetable patty", "bun", "lettuce", "tomato"],
+    "img": "Veggie Burger.jpg",
+    "price": {
+      "org": 7.99,
+      "mrp": 9.99,
+      "off": 20
     },
-    {
-      "id": "5",
-      "name": "Sushi Roll",
-      "desc": "Assorted sushi rolls with fresh fish and vegetables.",
-      "ingredients": ["rice", "fish", "vegetables", "nori"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 18.99,
-        "mrp": 20.99,
-        "off": 10
-      },
-      "category": ["japanese", "seafood"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["burger", "vegetarian"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "5",
+    "name": "Sushi Roll",
+    "desc": "Assorted sushi rolls with fresh fish and vegetables.",
+    "ingredients": ["rice", "fish", "vegetables", "nori"],
+    "img": "Sushi Roll.jpg",
+    "price": {
+      "org": 18.99,
+      "mrp": 20.99,
+      "off": 10
     },
-    {
-      "id": "6",
-      "name": "Caesar Salad",
-      "desc": "Fresh romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
-      "ingredients": ["romaine lettuce", "Caesar dressing", "croutons", "Parmesan cheese"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 9.99,
-        "mrp": 11.99,
-        "off": 17
-      },
-      "category": ["salad", "vegetarian"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["japanese", "seafood"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "6",
+    "name": "Caesar Salad",
+    "desc": "Fresh romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.",
+    "ingredients": ["romaine lettuce", "Caesar dressing", "croutons", "Parmesan cheese"],
+    "img": "Caesar Salad.jpg",
+    "price": {
+      "org": 9.99,
+      "mrp": 11.99,
+      "off": 17
     },
-    {
-      "id": "7",
-      "name": "Chocolate Cake",
-      "desc": "Rich and moist chocolate cake with chocolate frosting.",
-      "ingredients": ["flour", "sugar", "cocoa", "eggs", "butter"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 6.99,
-        "mrp": 8.99,
-        "off": 22
-      },
-      "category": ["dessert", "bakery"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["salad", "vegetarian"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "7",
+    "name": "Chocolate Cake",
+    "desc": "Rich and moist chocolate cake with chocolate frosting.",
+    "ingredients": ["flour", "sugar", "cocoa", "eggs", "butter"],
+    "img": "Chocolate Cake.jpeg",
+    "price": {
+      "org": 6.99,
+      "mrp": 8.99,
+      "off": 22
     },
-    {
-      "id": "8",
-      "name": "Beef Stroganoff",
-      "desc": "Tender beef in a creamy mushroom sauce served over noodles.",
-      "ingredients": ["beef", "mushrooms", "cream", "noodles"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 16.99,
-        "mrp": 18.99,
-        "off": 11
-      },
-      "category": ["russian", "non-veg"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["dessert", "bakery"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "8",
+    "name": "Beef Stroganoff",
+    "desc": "Tender beef in a creamy mushroom sauce served over noodles.",
+    "ingredients": ["beef", "mushrooms", "cream", "noodles"],
+    "img": "Beef Stroganoff.jpg",
+    "price": {
+      "org": 16.99,
+      "mrp": 18.99,
+      "off": 11
     },
-    {
-      "id": "9",
-      "name": "Pad Thai",
-      "desc": "Stir-fried rice noodles with eggs, firm tofu, and flavored with tamarind pulp.",
-      "ingredients": ["rice noodles", "eggs", "tofu", "tamarind"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 11.99,
-        "mrp": 13.99,
-        "off": 14
-      },
-      "category": ["thai", "vegetarian"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["russian", "non-veg"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "9",
+    "name": "Pad Thai",
+    "desc": "Stir-fried rice noodles with eggs, firm tofu, and flavored with tamarind pulp.",
+    "ingredients": ["rice noodles", "eggs", "tofu", "tamarind"],
+    "img": "Pad Thai.jpg",
+    "price": {
+      "org": 11.99,
+      "mrp": 13.99,
+      "off": 14
     },
-    {
-      "id": "10",
-      "name": "Falafel Wrap",
-      "desc": "Crispy falafel wrapped in pita bread with tahini sauce and vegetables.",
-      "ingredients": ["falafel", "pita bread", "tahini", "vegetables"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 8.99,
-        "mrp": 10.99,
-        "off": 18
-      },
-      "category": ["middle eastern", "vegetarian"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["thai", "vegetarian"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "10",
+    "name": "Falafel Wrap",
+    "desc": "Crispy falafel wrapped in pita bread with tahini sauce and vegetables.",
+    "ingredients": ["falafel", "pita bread", "tahini", "vegetables"],
+    "img": "Falafel Wrap.jpg",
+    "price": {
+      "org": 8.99,
+      "mrp": 10.99,
+      "off": 18
     },
-    {
-      "id": "11",
-      "name": "Chicken Shawarma",
-      "desc": "Marinated chicken slices served with pita bread and garlic sauce.",
-      "ingredients": ["chicken", "pita bread", "garlic sauce", "spices"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 12.99,
-        "mrp": 14.99,
-        "off": 13
-      },
-      "category": ["middle eastern", "non-veg"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["middle eastern", "vegetarian"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "11",
+    "name": "Chicken Shawarma",
+    "desc": "Marinated chicken slices served with pita bread and garlic sauce.",
+    "ingredients": ["chicken", "pita bread", "garlic sauce", "spices"],
+    "img": "Chicken Shawarma.jpg",
+    "price": {
+      "org": 12.99,
+      "mrp": 14.99,
+      "off": 13
     },
-    {
-      "id": "12",
-      "name": "Veggie Stir Fry",
-      "desc": "Assorted vegetables stir-fried with soy sauce and garlic.",
-      "ingredients": ["vegetables", "soy sauce", "garlic"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 9.99,
-        "mrp": 11.99,
-        "off": 17
-      },
-      "category": ["chinese", "vegetarian"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["middle eastern", "non-veg"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "12",
+    "name": "Veggie Stir Fry",
+    "desc": "Assorted vegetables stir-fried with soy sauce and garlic.",
+    "ingredients": ["vegetables", "soy sauce", "garlic"],
+    "img": "Veggie Stir Fry.jpg",
+    "price": {
+      "org": 9.99,
+      "mrp": 11.99,
+      "off": 17
     },
-    {
-      "id": "13",
-      "name": "BBQ Ribs",
-      "desc": "Tender pork ribs slathered in BBQ sauce.",
-      "ingredients": ["pork ribs", "BBQ sauce", "spices"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 19.99,
-        "mrp": 21.99,
-        "off": 9
-      },
-      "category": ["american", "non-veg"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["chinese", "vegetarian"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "13",
+    "name": "BBQ Ribs",
+    "desc": "Tender pork ribs slathered in BBQ sauce.",
+    "ingredients": ["pork ribs", "BBQ sauce", "spices"],
+    "img": "BBQ Ribs.jpg",
+    "price": {
+      "org": 19.99,
+      "mrp": 21.99,
+      "off": 9
     },
-    {
-      "id": "14",
-      "name": "Caprese Salad",
-      "desc": "Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.",
-      "ingredients": ["mozzarella", "tomatoes", "basil", "balsamic glaze"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 10.99,
-        "mrp": 12.99,
-        "off": 15
-      },
-      "category": ["italian", "vegetarian"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
+    "category": ["american", "non-veg"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "14",
+    "name": "Caprese Salad",
+    "desc": "Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.",
+    "ingredients": ["mozzarella", "tomatoes", "basil", "balsamic glaze"],
+    "img": "Caprese Salad.jpg",
+    "price": {
+      "org": 10.99,
+      "mrp": 12.99,
+      "off": 15
     },
-    {
-      "id": "15",
-      "name": "Lemon Herb Salmon",
-      "desc": "Grilled salmon seasoned with lemon and herbs.",
-      "ingredients": ["salmon", "lemon", "herbs"],
-      "img": "https://www.google.com/imgres?q=food&imgurl=https%3A%2F%2Fcdn.britannica.com%2F36%2F123536-050-95CB0C6E%2FVariety-fruits-vegetables.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Ftopic%2Ffood&docid=DJp6ra_owrcaaM&tbnid=rMZ8I5b2kc3W3M&vet=12ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA..i&w=1600&h=1068&hcb=2&ved=2ahUKEwiR4erGvP-LAxUYyzgGHXQ5BzcQM3oECGIQAA",
-      "price": {
-        "org": 22.99,
-        "mrp": 24.99,
-        "off": 8
-      },
-      "category": ["seafood", "healthy"],
-      "createdAt": "2023-10-01T12:00:00Z",
-      "updatedAt": "2023-10-01T12:00:00Z"
-    }
-  ]
-  
+    "category": ["italian", "vegetarian"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  },
+  {
+    "id": "15",
+    "name": "Lemon Herb Salmon",
+    "desc": "Grilled salmon seasoned with lemon and herbs.",
+    "ingredients": ["salmon", "lemon", "herbs"],
+    "img": "Lemon Herb Salmon.jpg",
+    "price": {
+      "org": 22.99,
+      "mrp": 24.99,
+      "off": 8
+    },
+    "category": ["seafood", "healthy"],
+    "createdAt": "2023-10-01T12:00:00Z",
+    "updatedAt": "2023-10-01T12:00:00Z"
+  }
+]

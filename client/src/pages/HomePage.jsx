@@ -149,7 +149,7 @@ const HomePage = () => {
 
       <div className="flex flex-col md:flex-row gap-4 mb-6">
         <div className="flex-1">
-          <div className="relative">
+          {/* <div className="relative">
             <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground" />
             <Input
               placeholder="Search foods..."
@@ -157,7 +157,7 @@ const HomePage = () => {
               value={filters.search}
               onChange={(e) => setFilters({ ...filters, search: e.target.value })}
             />
-          </div>
+          </div> */}
         </div>
 
         <Sheet>
@@ -254,11 +254,11 @@ const HomePage = () => {
                 </div>
                 <p className="text-muted-foreground text-sm mb-2 line-clamp-2">{food.desc}</p>
                 <div className="flex flex-wrap gap-1 mt-2">
-                  {food.category.map((cat, index) => (
+                  {Array.isArray(food.category) ? food.category.map((cat, index) => (
                     <Badge key={index} variant="secondary" className="text-xs">
                       {cat}
                     </Badge>
-                  ))}
+                  )) : null}
                 </div>
               </CardContent>
               <Separator />
